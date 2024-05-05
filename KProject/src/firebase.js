@@ -8,12 +8,12 @@ import { getDownloadURL, getStorage, ref, uploadBytes } from "firebase/storage";
 
 
 const app = firebase.initializeApp({
-  apiKey: "AIzaSyCV6nfkNY7G4gANk1cAMo6TNZutxWnrJVQ",
-  authDomain: "finalyearproject-c7265.firebaseapp.com",
+  apiKey: API_KEY,
+  authDomain: AUTH_DOMAIN,
   projectId: "finalyearproject-c7265",
-  storageBucket: "finalyearproject-c7265.appspot.com",
-  messagingSenderId: "774418399181",
-  appId: "1:774418399181:web:5b04aa3b576ad19ae30e84"
+  storageBucket: STORAGE_BUCKET,
+  messagingSenderId: MSG_SENDER_ID,
+  appId: APP_ID
 })
 
 
