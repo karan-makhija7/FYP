@@ -1,0 +1,25 @@
+.container1{
+      max-width: 500px;
+      
+      padding: 20px;
+      background-color: white;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      border-radius: 6px;
+      
+      
+}
+
+#incomeAmount {
+  margin-left: 70px;
+}
+.income {
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 350px;
+}
+
+#balance{
+  margin-top: 100px;
+}

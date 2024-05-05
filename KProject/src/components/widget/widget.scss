@@ -1,0 +1,46 @@
+.widget {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  padding: 10px;
+  -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+  box-shadow: 2px 4px 10px 1px rgba(211, 206, 206, 0.47);
+  
+  height: 105px;
+  border-radius: 11px;
+
+  .left,
+  .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .title {
+      font-weight: bold;
+      color: rgb(151, 142, 142);
+      font-size: 15px;
+      
+    }
+
+    .counter {
+      color: #143AA2;
+      font-size: 28px;
+      font-weight: 310;
+    }
+
+    .icon {
+      font-size: 18px;
+      padding: 5px;
+      border-radius: 5px;
+      align-self: flex-end;
+    }
+
+    .link {
+      width: max-content;
+      font-size: 12px;
+      
+    }
+    
+  }
+}
+
